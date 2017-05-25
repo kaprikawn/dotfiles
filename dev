@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~/git/agame
+
+exit 0
