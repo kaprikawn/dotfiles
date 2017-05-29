@@ -18,11 +18,9 @@ set relativenumber
 set number
 
 let mapleader = ","
-"nmap <leader>ne :NERDTree<CR>
+nnoremap <leader>n :NERDTree<CR>
 nnoremap <leader>x :q<CR>
 nnoremap <leader>s :w<CR>
-
-map <silent> <C-n> :NERDTreeFocus<CR>
 
 let NERDTreeQuitOnOpen=1
 
