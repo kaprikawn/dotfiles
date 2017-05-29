@@ -30,5 +30,5 @@ set laststatus=2
 let g:airline_powerline_fonts = 1
 set encoding=utf-8
 
-#font forground #F4AB3E
-#term background #444444
+"font forground #F4AB3E
+"term background #444444
