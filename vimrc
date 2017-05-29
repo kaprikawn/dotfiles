@@ -21,7 +21,7 @@ set number
 
 let mapleader = ","
 nnoremap <leader>n :NERDTree<CR>
-nnoremap <leader>x :q<CR>
+nnoremap <leader>w :q<CR>
 nnoremap <leader>s :w<CR>
 
 let NERDTreeQuitOnOpen=1
