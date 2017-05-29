@@ -1,7 +1,7 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
-colorscheme slate
+colorscheme myvim
 
 
 nnoremap tn :tabnew<Space>
@@ -29,3 +29,6 @@ let NERDTreeQuitOnOpen=1
 set laststatus=2
 let g:airline_powerline_fonts = 1
 set encoding=utf-8
+
+#font forground #F4AB3E
+#term background #444444
