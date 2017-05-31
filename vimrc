@@ -19,9 +19,9 @@ cno jk <c-c>
 set relativenumber
 set number
 
-let mapleader = ","
+let mapleader = "n"
 nnoremap <leader>n :NERDTree<CR>
-nnoremap <leader>w :q<CR>
+nnoremap <leader>q :q<CR>
 nnoremap <leader>s :w<CR>
 
 let NERDTreeQuitOnOpen=1

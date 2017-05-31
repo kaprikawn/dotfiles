@@ -13,3 +13,11 @@ cd fonts
 cd ..
 rm -rf fonts
 
+
+cd ~/.vim/bundle
+git clone git://github.com/altercation/vim-colors-solarized.git
+mv vim-colors-solarized ~/.vim/bundle/
+
+cp myvim ~/.vim/myvim.vim
+
+
