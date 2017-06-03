@@ -1,8 +1,11 @@
 execute pathogen#infect()
-syntax on
+syntax enable
 filetype plugin indent on
 colorscheme myvim
 
+set expandtab
+set shiftwidth=2
+set softtabstop=2
 
 nnoremap tn :tabnew<Space>
 nnoremap tx :tabclose<CR>
@@ -19,7 +22,7 @@ cno jk <c-c>
 set relativenumber
 set number
 
-let mapleader = "n"
+let mapleader = ";"
 nnoremap <leader>n :NERDTree<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>s :w<CR>
