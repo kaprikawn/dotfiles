@@ -5,4 +5,11 @@ cp vimrc ~/.vimrc
 cp tmux.conf ~/.tmux.conf
 cp dev ~/dev
 
+if [[ ! -d ~/.vim/colors ]]
+then
+  mkdir ~/.vim/colors
+fi
+
+cp myvim ~/.vim/colors
+
 exit 0
