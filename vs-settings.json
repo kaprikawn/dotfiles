@@ -1,0 +1,12 @@
+{
+      "git.ignoreMissingGitWarning": true
+    , "extensions.ignoreRecommendations": true
+    , "editor.tabSize": 2
+    , "editor.wordWrap": "on"
+    , "editor.links": false
+    , "files.eol": "\n"
+    , "files.associations": {
+        "*.cgi" : "perl"
+      , "*.ksh" : "shellscript"
+    }
+  }
