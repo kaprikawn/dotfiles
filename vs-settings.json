@@ -10,3 +10,24 @@
       , "*.ksh" : "shellscript"
     }
   }
+
+
+{
+      "editor.tabSize": 2
+    , "editor.wordWrap": "on"
+    , "workbench.activityBar.visible": false
+    , "editor.trimAutoWhitespace": false
+    , "files.exclude": {
+          "exe"                 : true
+        , "CMakeCache.txt"      : true
+        , "cmake_install.cmake" : true
+        , "clean"               : true
+        , "Makefile"            : true
+        , "run"                 : true
+        , "**/CMakeFiles"       : true
+        , "**/cmake"            : true
+        
+    }
+    , "editor.fontFamily": "'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+    , "editor.fontSize": 16
+  }
